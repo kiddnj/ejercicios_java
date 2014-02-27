@@ -14,6 +14,8 @@ import java.util.HashMap;
  */
 public class PruebaHashMap {
     
-    HashMap<Integer,String> prueba = new HashMap();
     
+    public static void main(String[] args){
+        HashMap<Integer,String> prueba = new HashMap();
+    }
 }
