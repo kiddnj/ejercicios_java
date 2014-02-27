@@ -17,5 +17,9 @@ public class PruebaHashMap {
     
     public static void main(String[] args){
         HashMap<Integer,String> prueba = new HashMap();
+        prueba.put(1,"100");
+        prueba.put(2,"200");
+        prueba.put(3,"300");
+        prueba.put(4,"400");
     }
 }
