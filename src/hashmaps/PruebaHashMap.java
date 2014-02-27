@@ -21,5 +21,6 @@ public class PruebaHashMap {
         prueba.put(2,"200");
         prueba.put(3,"300");
         prueba.put(4,"400");
+        prueba.get(1);
     }
 }
