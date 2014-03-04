@@ -21,5 +21,11 @@ public class Main {
         Alumno b = new Alumno();
         b.setDatos("2000-2", "Pamela");
         b.matricularse("Industrial");
+        
+        Persona c = new Alumno();
+        ((Alumno)c).matricularse("");
+        
+        System.out.println(c instanceof Persona);
+        System.out.println(c instanceof Alumno);
     }
 }
