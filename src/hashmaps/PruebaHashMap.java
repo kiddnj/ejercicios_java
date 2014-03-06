@@ -22,12 +22,14 @@ public class PruebaHashMap {
         prueba.put(2,"200");
         prueba.put(3,"300");
         prueba.put(4,"400");
+        prueba.put(4,"400");
         prueba.get(1);
         
         Iterator listaValores = prueba.values().iterator();
         Iterator listaKeys = prueba.keySet().iterator();
         while(listaValores.hasNext()){
             String n = listaValores.next().toString();
+            System.out.println(n);
         }
     }
 }
